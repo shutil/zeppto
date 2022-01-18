@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
     return(
-        <div className="ht container lg:w-[1300px] mx-auto flex justify-center items-center relative overflow-x-hidden px-4 lg:px-10">
+        <div className="ht py-4 container lg:w-[1300px] mx-auto flex justify-center items-center relative overflow-x-hidden px-4 lg:px-10">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
                 <div className="col-span-2 mt-5">
                     <motion.p initial={{ opacity:0, x:"-100vh" }} animate={{ opacity:1, x:0 }} transition={{ duration:0.5 }}  className="text-5xl lg:text-6xl font-medium"><span>Boost sales with </span><span className="mt-2 lg:block">the Mobile Express</span> <span className="mt-2 lg:block">Checkout</span></motion.p>

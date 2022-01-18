@@ -6,13 +6,13 @@
 @screen lg{
   .ht
   {
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
   }
 }
 
 .ht
 {
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
 }
 
 .active
